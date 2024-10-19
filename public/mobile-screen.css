@@ -1,0 +1,36 @@
+.hide-when-mobile {
+  flex-direction: column;
+}
+
+h1 a,
+h1 {
+  font-size: 25px !important;
+}
+
+
+a,
+.fa-solid:not(.fa-sun,.fa-moon, .close),
+button,main form p, 
+footer {
+  font-size: 16px !important;
+}
+.close {
+  font-size: 23px !important;
+}
+
+
+main form ,.show{
+  width: 80vw !important;
+}
+
+
+main form h1
+{
+  font-size: 20px !important;
+}
+
+
+.send-email-succ{
+  color: rgb(47, 255, 50);
+  font-size: 16px;
+}

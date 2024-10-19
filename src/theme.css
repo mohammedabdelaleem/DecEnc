@@ -1,0 +1,79 @@
+
+
+.theme-btn {
+  outline: 0;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+
+  margin: .5rem;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #33557c;
+  padding: .375rem .75rem;
+  line-height: 1.5;
+  border-radius: .5rem;
+  transition: all .5s;
+}
+
+.theme-btn:hover, 
+.theme-btn:focus{
+  background-color: #fc4364;
+  color: #fff;
+  font-size: 1.03rem;
+}
+
+
+
+
+/*=============
+  dark
+===============*/
+.dark {
+  background-color: #242424;
+}
+
+.dark main {
+  color: white;
+}
+
+.dark .ali,
+.dark div.myfooter > footer  {
+  background-color: #0b0a0a !important;
+  color: white;
+}
+
+.dark .fa-moon {
+  display: none;
+}
+
+.light .fa-sun {
+  display: none;
+}
+
+.fa-solid {
+  padding: 5px;
+font-size: 28px;
+color: gold;
+margin-left: 5px;
+opacity: 0.88;
+
+transition: all 0.3s;
+}
+
+.fa-solid:hover {
+  font-size: 30px;
+  opacity: 1;
+  cursor: pointer;   
+  }
+  
+
+
+
+
+
+
